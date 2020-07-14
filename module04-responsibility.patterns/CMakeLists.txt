@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(singleton singleton/study-singleton.cpp)
 add_executable(proxy proxy/study-proxy.cpp)
+add_executable(observer observer/study-observer.cpp)
