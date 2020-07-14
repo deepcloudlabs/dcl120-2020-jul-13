@@ -18,3 +18,4 @@ target_link_libraries(study-adapter-with-caching ${BOOST_LIBRARY_DIRS})
 
 add_executable(trading-api facade/trading-api.cpp)
 
+add_executable(composite composite/study-composite.cpp)
